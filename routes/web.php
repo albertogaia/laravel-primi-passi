@@ -14,5 +14,11 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
-});
+    $data = [
+        'linguaggi' => ['html', 'css'],
+        'programmazione' => ['Javascript', 'PHP'],
+        'frameworks' => ['VueJs', 'Laravel'],
+    ];
+    return view('home', $data);
+})->name('homepage');
+
