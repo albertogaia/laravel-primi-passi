@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Primi passi</title>
+        <title>Contatti</title>
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;600&display=swap" rel="stylesheet">
     </head>
@@ -21,25 +21,8 @@
             </div>
         </div>
         <main>
-            <h1>Ciao booleani!</h1>
-            <p>I linguaggi di markup studiati in Boolean sono:</p>
-            <ul>
-                @foreach ($linguaggi as $item)
-                    <li>{{ $item }}</li>
-                @endforeach
-            </ul>
-            <p>I linguaggi di programmazione studiati in Boolean sono:</p>
-            <ul>
-                @foreach ($programmazione as $item)
-                    <li>{{ $item }}</li>
-                @endforeach
-            </ul>
-            <p>I frameworks studiati in Boolean sono:</p>
-            <ul>
-                @foreach ($frameworks as $item)
-                    <li>{{ $item }}</li>
-                @endforeach
-            </ul>
+            <h1>PAGINA CONTATTI</h1>
+            <p>Insert content here -- CONTATTI --</p>
         </main>
     </body>
 

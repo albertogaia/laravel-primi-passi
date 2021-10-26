@@ -3,14 +3,14 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Primi passi</title>
+        <title>Blog</title>
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;600&display=swap" rel="stylesheet">
     </head>
     <body>
         <div class="content">
             <div>
-                <h3>Primi passi</h3>
+                <h3>Il mio blog</h3>
             </div>
 
             <div>
@@ -21,25 +21,8 @@
             </div>
         </div>
         <main>
-            <h1>Ciao booleani!</h1>
-            <p>I linguaggi di markup studiati in Boolean sono:</p>
-            <ul>
-                @foreach ($linguaggi as $item)
-                    <li>{{ $item }}</li>
-                @endforeach
-            </ul>
-            <p>I linguaggi di programmazione studiati in Boolean sono:</p>
-            <ul>
-                @foreach ($programmazione as $item)
-                    <li>{{ $item }}</li>
-                @endforeach
-            </ul>
-            <p>I frameworks studiati in Boolean sono:</p>
-            <ul>
-                @foreach ($frameworks as $item)
-                    <li>{{ $item }}</li>
-                @endforeach
-            </ul>
+            <h1>PAGINA BLOG</h1>
+            <p>Insert content here -- BLOG --</p>
         </main>
     </body>
 
